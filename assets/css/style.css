@@ -290,9 +290,9 @@ div {
 }
 
 .widget {
-	margin-bottom: 10px;
 	border: 1px solid #CCC;
 	background-color: #F2F2F2;
+	margin-bottom: 10px;
 
 }
 
@@ -303,4 +303,18 @@ div {
 	font-size: 14px;
 	border-bottom: 1px solid #CCC;
 	background-color: #DDD;
+}
+
+.widget-description {
+	text-align: justify-all;
+	padding: 5px 5px 5px;
+	
+}
+
+.widget-social-medias {
+	text-align: center;
+}
+
+.widget-description a {
+	text-decoration: none;
 }
