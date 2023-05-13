@@ -1,11 +1,10 @@
-
 /* Import default fonts  */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 :root {
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 
 html {
 
-	background-color: #F6F6F6;]
+	background-color: #F6F6F6;
 }
 
 html,
@@ -27,7 +26,7 @@ ul,
 li,
 div {
 
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -49,14 +48,14 @@ div {
 	width: 100%;
 	max-width: 1040px;
 	margin: auto;
-	
+
 }
 
 .top-menu-left {
 	display: flex;
 	align-items: center;
 	align-content: center;
-	justify-content: start;	
+	justify-content: start;
 	width: 50%;
 	height: 30px;
 	float: left;
@@ -67,13 +66,13 @@ div {
 	flex-direction: row;
 	align-items: center;
 	align-content: center;
-	justify-content: end;	
+	justify-content: end;
 	width: 50%;
 	height: 30px;
 	float: right;
 	text-align: right;
 
-	
+
 }
 
 .top-menu-left ul {
@@ -120,7 +119,7 @@ div {
 	justify-content: end;
 }
 
-.top-menu-right img{
+.top-menu-right img {
 	margin-right: 4px;
 }
 
@@ -130,7 +129,7 @@ div {
 	justify-content: center;
 	height: 95px;
 	color: #000000;
-	background-color: #fff;	
+	background-color: #fff;
 }
 
 .top-menu-2-internal {
@@ -176,7 +175,7 @@ div {
 	justify-content: space-between;
 	width: 100%;
 	height: 40px;
-	margin: auto;	
+	margin: auto;
 	max-width: 1040px;
 	background-color: red;
 }
@@ -184,19 +183,19 @@ div {
 .menu ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;	
+	list-style: none;
 }
 
 .menu li {
 	float: left;
-	height:  40px;
+	height: 40px;
 	line-height: 40px;
 	padding-left: 8px;
 	padding-right: 8px;
 }
 
-.menu li:hover .submenu{
-	display:block;
+.menu li:hover .submenu {
+	display: block;
 
 }
 
@@ -240,7 +239,7 @@ div {
 
 .last-news-area {
 	display: flex;
-	flex-direction: row;	
+	flex-direction: row;
 	height: 28px;
 	margin-top: 10px;
 	background: #F2F2F2;
@@ -308,7 +307,7 @@ div {
 .widget-description {
 	text-align: justify-all;
 	padding: 5px 5px 5px;
-	
+
 }
 
 .widget-social-medias {
@@ -317,4 +316,17 @@ div {
 
 .widget-description a {
 	text-decoration: none;
+}
+
+.news_item {
+	font-size: 14px;
+	margin: 0px 5px;
+	padding: 5px 0px;
+	text-align: left;
+	border-bottom: solid 1px #CCC;
+}
+
+.news_item a {
+	text-decoration: none;
+	color: #222;
 }
