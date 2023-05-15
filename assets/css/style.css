@@ -26,7 +26,6 @@ div {
 	font-family: 'Roboto', sans-serif;
 }
 
-
 .top-menu {
 	display: flex;
 	align-items: center;
@@ -70,7 +69,6 @@ div {
 }
 
 .top-menu-left ul {
-
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
@@ -164,7 +162,7 @@ div {
 	height: 40px;
 	margin: auto;
 	max-width: 1040px;
-	background-color: red;
+	background-color: #444;
 }
 
 .menu ul {
@@ -205,12 +203,11 @@ div {
 }
 
 .submenu-item:hover {
-	background-color: #666666;
+	background-color: #3d65ac;
 }
 
 .last-news {
 	height: 40px;
-
 }
 
 .last-news-internal {
@@ -219,7 +216,6 @@ div {
 	width: 100%;
 	max-width: 1040px;
 }
-
 
 .last-news-area {
 	display: flex;
@@ -249,7 +245,6 @@ div {
 	padding: 0px 10px 0px;
 	background-color: #F2F2F2;
 }
-
 
 .container-internal {
 	width: 100%;
@@ -318,21 +313,62 @@ div {
 	overflow: hidden;
 }
 
-.slidesshow {
+.slideshow {
 	height: 335px;
-
+	overflow: hidden;
 }
 
-.slidesshow-container {
+.slideshow-container {
+	width: 100000px;
 	height: 335px;
-	width: 10000px;
-	overflow: hidden;
+	background-color: #DDD;
+	transition: all 1s;
 }
 
 .slide {
 	height: 335px;
+	float: left;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
 
+.slide-description {
+	height: 70px;
+	background-image: linear-gradient(to top, #444, transparent);
+	background-size: auto 70px;
+	margin-top: 265px;
+}
+
+.slide-description-title {
+	font-size: 20px;
+	color: #F2F2F2;
+	padding: 20px 0px 0px 20px;
+}
+
+.slide-description-subtitle {
+	font-size: 13px;
+	color: #F2F2F2;
+	padding: 0px 0px 0px 20px;
+}
+
+.slideswap {
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	padding: 10px;
+}
+
+.slide-circle {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color: #DDD;
+	border-radius: 10px;
+}
+
+.active {
+	background-color: #3d65ac;
 }
