@@ -316,6 +316,7 @@ div {
 .slideshow {
 	height: 335px;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .slideshow-container {
@@ -371,4 +372,70 @@ div {
 
 .active {
 	background-color: #3d65ac;
+}
+
+.news-content1 {
+	width: 430px;
+	height: 420px;
+	float: left;
+
+}
+
+.news-content2 {
+	width: 310px;
+	height: 420px;
+	float: left;
+}
+
+.newsitem {
+	text-align: left;
+	height: 88px;
+	margin: 7px 0px;
+}
+
+.newsimage {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #DDD;
+	padding: 3px;
+	float: left;
+}
+
+.newstitle {
+	width: 215px;
+	margin-left: 6px;
+	float: left;
+	font-size: 16px;
+}
+
+.newsinfo {
+	font-size: 12px;
+	width: 215px;
+	margin-left: 6px;
+	color: #888;
+	float: left;
+}
+
+.big-news {
+	margin-left: 10px;
+}
+
+.big-news .newsimage {
+	width: 390px;
+	height: 222px;
+}
+
+.big-news .newsimage img {
+	width: 390px;
+	height: 222px;
+}
+
+.big-news .newstitle {
+	font-size: 25px;
+	width: 390px;
+}
+
+.big-news .newsinfo {
+	font-size: 15px;
+	width: 390px;
 }
